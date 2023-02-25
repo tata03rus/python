@@ -9,7 +9,7 @@ print('Введите размер шоколада n x m: ')
 n = int(input())
 m = int(input())
 k = int(input('Введите количество долек, которое необходимо отломить: '))
-if k < n * m and k & n == 0 or k % m == 0 or k / n == 1 or k / m == 1:
+if k < n * m and k % n == 0 or k % m == 0 or k / n == 1 or k / m == 1:
     print('yes')
 else:
     print('no')

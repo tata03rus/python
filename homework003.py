@@ -13,3 +13,4 @@ if (summa1==summa2):
     print ('Билет с номером ', nomer_bileta, ' - счастливый')
 else:
     print ('Билет с номером ', nomer_bileta, ' - несчастливый')
+    

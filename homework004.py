@@ -13,3 +13,4 @@ if k < n * m and k % n == 0 or k % m == 0 or k / n == 1 or k / m == 1:
     print('yes')
 else:
     print('no')
+    
